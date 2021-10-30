@@ -1,0 +1,163 @@
+
+
+
+
+body {
+font-family: sans-serif;
+color: brown;
+background:url("bg.png")
+800px
+}
+
+
+
+#Portfolio {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+font-size: larger;
+text-transform: uppercase;
+}
+
+li {
+list-style-type: none;
+float: left;
+background-color: black;
+margin-top: 400px;
+border-radius: 2px;
+box-sizing: border-box;
+}
+
+
+#Navigation {  
+margin-left: 970px;
+color: white;
+margin-bottom: 700px;
+position:relative;
+z-index: 1;
+
+}
+
+#Navigation #aktuell a
+{
+color:brown;
+} 
+
+#Navigation a:hover
+{
+background-color: #369;
+color: #fff;
+}
+
+a {
+color: white;
+
+}
+
+a:link {
+text-decoration: none; 
+}
+
+
+
+#Kreis {
+  text-align: center;
+    background-color: brown;
+    width: 800px;
+    height: 800px;
+    border: 1px brown;
+    text-align: center;
+    border-radius:1000px;
+    margin: -1100px 0px 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+#Überschrift img {
+opacity: 0.5;
+margin-right: 21px;
+}
+
+#Überschrift img:hover
+{
+
+background-image: url(icon_facebook.png);
+opacity: 1;
+}
+
+#Überschrift h1{
+font-size: 190px;
+letter-spacing: -20px;
+margin-bottom: -50px;
+margin-top: 50px;
+}
+
+
+
+#Überschrift h2 {
+font-size: 55px;
+margin-left: 260px;
+margin-top: 5px;
+margin-bottom: 0px;
+
+}
+
+#Überschrift {
+  color: white;
+
+}
+
+#Überschrift p {
+width: 40%;
+text-align: left;
+margin-left: auto;
+margin-right: 103px;
+margin-top: 0px;
+font-size: 12px;
+
+}
+
+
+ 
+ input[type=text], select, textarea {
+    width: 25%; /* Breite */
+    padding: 10px; 
+    background-color: rgb(194, 192, 192);
+    color: white;
+    font-weight: bold;
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    font-family: sans-serif;
+  }
+  
+  /* absenden-Button */
+  input[type=submit] {
+    color: white;
+    cursor: pointer;
+    padding: auto;
+    background-color:rgb(194, 192, 192);
+
+
+  }
+  
+  /* Wird betont wenn man mit Maus rüberfährt */
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+  }
+  
+  .Kontaktformular {
+padding: 20px;
+  } 
+
+
+  .Kontaktformular p {
+color: rgb(194, 192, 192);
+font-size: 10px;
+
+  }
+
+  #Kontaktbox {
+margin-left: 270px;  }
