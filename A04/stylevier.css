@@ -136,3 +136,19 @@ body {
   } 
     
 
+  /* absenden-Button */
+  input[type=submit] {
+    color: white;
+    cursor: pointer;
+    padding: auto;
+    background-color:rgb(194, 192, 192);
+    margin-top: 10px;
+
+
+  }
+  
+  /* Wird betont wenn man mit Maus rüberfährt */
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+  }
