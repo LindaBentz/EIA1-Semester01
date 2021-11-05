@@ -1,0 +1,54 @@
+body {
+background-image: url("bg.png");
+
+}
+
+
+
+
+
+#Hauptcontainer {
+width: 600px;
+height: 400px;
+
+margin-top: 12.5%;
+margin-left: auto;
+margin-right: auto;}
+
+
+#Text h1 {
+
+    position: absolute;
+    margin-top: 55px;
+margin-left: 60px;    
+color: white;
+  
+    font-size: 40px;
+}
+
+
+#Text p {
+    position: absolute;
+color: white;
+margin-left: 60px;
+margin-top: 200px;
+width: 450px;
+
+}
+
+  
+
+
+
+#Pinguin {
+position: absolute;
+left: 860px;
+bottom: 175px;
+
+}
+
+#Busch {
+position: absolute;
+bottom: 467px;
+right: 832px;
+}

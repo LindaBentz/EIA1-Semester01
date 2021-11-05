@@ -1,0 +1,93 @@
+body {
+    background-image: url("bg.png");
+    
+    }
+    
+    #Hauptcontainer {
+    width: 700px;
+    height: 400px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+    #Text h1 {
+    
+        position: absolute;
+        margin-top: 185px;
+    margin-left: 60px;    
+    color: white;
+      
+        font-size: 40px;
+        z-index: 1;
+    }
+    
+    
+    #Text p {
+        position: absolute;
+    color: white;
+    margin-left: 60px;
+    margin-top: 310px;
+    width: 450px;
+    z-index: 2;
+    
+    }
+    
+    #Karte {
+    position: absolute;  
+    }
+ 
+    
+
+#Gifts {
+    position: absolute;
+z-index: 2;
+margin-left: 460px;
+margin-top: 330px;
+
+
+
+}
+
+
+#Stern1 {
+position: absolute;
+z-index: 2;
+margin-left: 450px;
+margin-top: 170px;
+
+}
+
+#Stern2 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 270px;
+margin-top: 50px;
+    
+    }
+
+    #Stern3 {
+        position: absolute;
+        z-index: 1;
+        margin-left: 120px;
+margin-top: 140px;
+        
+        } 
+        
+        
+
+#Feuer {
+position: absolute;
+z-index: 1;
+margin-left: 420px;
+margin-top: 90px;
+
+}
+
+#Busch {
+z-index: 1;
+position: absolute;
+margin-top: -60px;
+margin-left: -40px;
+}

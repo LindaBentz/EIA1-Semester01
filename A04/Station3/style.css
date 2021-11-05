@@ -1,0 +1,89 @@
+body {
+    background-image: url("bg.png");
+    
+    }
+    
+    #Hauptcontainer {
+    width: 800px;
+    height: 400px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    
+    #Text h1 {
+    
+        position: absolute;
+        margin-top: 85px;
+    margin-left: 60px;    
+    color: white;
+      
+        font-size: 40px;
+        z-index: 1;
+    }
+    
+    
+    
+    
+    #Karte {
+    position: absolute;  
+    }
+    
+    #Stern1 {
+        position: absolute;
+z-index: 1;
+margin-top: 285px;
+margin-left: 70px;
+
+    }
+    
+
+    #Stern2 {
+        position: absolute;
+z-index: 1;
+margin-top: 190px;
+margin-left: 200px;
+
+    }
+
+    #Stern3 {
+        position: absolute;
+z-index: 1;
+margin-top: 350px;
+margin-left: 330px;
+
+    }
+
+
+    #Stern4 {
+        position: absolute;
+z-index: 1;
+margin-top: 270px;
+margin-left: 560px;
+
+    }
+
+
+    #Stern1 :hover {
+    background-image: url("stern_hover.png");
+
+
+    }
+
+    #Stern2 :hover {
+    background-image: url("stern_hover.png");
+        
+        
+            }
+
+    #Stern3 :hover {
+    background-image: url("stern_hover.png");
+                
+                
+                    }
+
+    #Stern4 :hover {
+    background-image: url("stern_hover.png");
+                        
+                        
+      }
