@@ -6,9 +6,10 @@ body {
     #Hauptcontainer {
     width: 600px;
     height: 400px;
-    margin-top: 12.5%;
-    margin-left: auto;
-    margin-right: auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
     
     
@@ -16,6 +17,9 @@ body {
     
     #Karte {
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 
