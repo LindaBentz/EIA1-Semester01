@@ -1,5 +1,34 @@
-/*Variablen der Kontinente*/
+/*Variablen für Texte*/
 
+
+var eu: string = "Europa";
+var sa: string = "Südamerika";
+var na: string = "Nordamerika";
+var af: string = "Afrika";
+var as: string = "Asien";
+var au: string = "Australien";
+
+
+var texteinseins: string = "Die Emission von ";
+var texteinszwei: string = " ist ";
+var texteinsdrei: string = " kg CO2.";
+
+var textzweieins: string = "Relativ zur Gesamtemission der Welt verursacht ";
+var textzweizwei: string = " damit ";
+var textzweidrei: string = " %.";
+
+var textdreieins: string = "Für ";
+var textdreizwei: string = " hat sich 2018 im Vergleich zu 2008 die Emission um ";
+var textdreidrei: string = " % verändert.";
+
+var textviereins: string = "2018 im Vergleich zu 2008 sind das ";
+var textvierzwei: string = " kg CO2.";
+
+
+
+
+
+/*Variablen der Kontinente*/
 var europa2018: number = 4209.3;
 var europa2008: number = 4965.7;
 
@@ -24,35 +53,35 @@ var welt: number = europa2018 + nordamerika2018 + suedamerika2018 + afrika2018 +
 
 /*Konsolenausgabe*/
 
-console.log("Die Emission von Europa ist: " + europa2018 + " kg CO2.");
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit " + Math.round((europa2018 / welt) * 100) + "%.");
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round(((europa2018 - europa2008) / europa2008) * 100) + "% verändert.");
-console.log("2018 im Vergleich zu 2008 sind das " + Math.round(europa2018 - europa2008) + " kg CO2.");
+console.log(texteinseins + eu + texteinszwei + europa2018 + texteinsdrei);
+console.log(textzweieins + eu + textzweizwei + Math.round((europa2018 / welt) * 100) + textzweidrei);
+console.log(textdreieins + eu + textdreizwei + Math.round(((europa2018 - europa2008) / europa2008) * 100) + textdreidrei);
+console.log(textviereins + Math.round(europa2018 - europa2008) + textvierzwei);
 
-console.log("Die Emission von Nordamerika ist: " + nordamerika2018 + " kg CO2.");
-console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit " + Math.round((nordamerika2018 / welt) * 100) + "%.");
-console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round(((nordamerika2018 - nordamerika2008) / nordamerika2008) * 100) + "% verändert.");
-console.log("2018 im Vergleich zu 2008 sind das " + Math.round(nordamerika2018 - nordamerika2008) + " kg CO2.");
+console.log(texteinseins + na + texteinszwei + nordamerika2018 + texteinsdrei);
+console.log(textzweieins + na + textzweizwei + Math.round((nordamerika2018 / welt) * 100) + textzweidrei);
+console.log(textdreieins + na + textdreizwei + Math.round(((nordamerika2018 - nordamerika2008) / nordamerika2008) * 100) + textdreidrei);
+console.log(textviereins + Math.round(nordamerika2018 - nordamerika2008) + textvierzwei);
 
-console.log("Die Emission von Südamerika ist: " + suedamerika2018 + " kg CO2."); 
-console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit " + Math.round((suedamerika2018 / welt) * 100) + "%.");
-console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round(((suedamerika2018 - suedamerika2008) / suedamerika2008) * 100) + "% verändert.");
-console.log("2018 im Vergleich zu 2008 sind das " + Math.round(suedamerika2018 - suedamerika2008) + " kg CO2.");
+console.log(texteinseins + sa + texteinszwei + suedamerika2018 + texteinsdrei); 
+console.log(textzweieins + sa + textzweizwei + Math.round((suedamerika2018 / welt) * 100) + textzweidrei);
+console.log(textdreieins + sa + textdreizwei + Math.round(((suedamerika2018 - suedamerika2008) / suedamerika2008) * 100) + textdreidrei);
+console.log(textviereins + Math.round(suedamerika2018 - suedamerika2008) + textvierzwei);
 
-console.log("Die Emission von Afrika ist: " + afrika2018 + " kg CO2.");
-console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit " + Math.round((afrika2018 / welt) * 100) + "%.");
-console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round(((afrika2018 - afrika2008) / afrika2008) * 100) + "% verändert.");
-console.log("2018 im Vergleich zu 2008 sind das " + Math.round(afrika2018 - afrika2008) + " kg CO2.");
+console.log(texteinseins + af + texteinszwei + afrika2018 + texteinsdrei);
+console.log(textzweieins + af + textzweizwei + Math.round((afrika2018 / welt) * 100) + textzweidrei);
+console.log(textdreieins + af + textdreizwei + Math.round(((afrika2018 - afrika2008) / afrika2008) * 100) + textdreidrei);
+console.log(textviereins + Math.round(afrika2018 - afrika2008) + textvierzwei);
 
-console.log("Die Emission von Asien ist: " + asien2018 + " kg CO2.");
-console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit " + Math.round((asien2018 / welt) * 100) + "%.");
-console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round(((asien2018 - asien2008) / asien2008) * 100) + "% verändert.");
-console.log("2018 im Vergleich zu 2008 sind das " + Math.round(asien2018 - asien2008) + " kg CO2.");
+console.log(texteinseins + as + texteinszwei + asien2018 + texteinsdrei);
+console.log(textzweieins + as + textzweizwei + Math.round((asien2018 / welt) * 100) + textzweidrei);
+console.log(textdreieins + as + textdreizwei + Math.round(((asien2018 - asien2008) / asien2008) * 100) + textdreidrei);
+console.log(textviereins + Math.round(asien2018 - asien2008) + textvierzwei);
 
-console.log("Die Emission von Australien ist: " + australien2018 + " kg CO2.");
-console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit " + Math.round((australien2018 / welt) * 100) + "%.");
-console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round(((australien2018 - australien2008) / australien2008) * 100) + "% verändert.");
-console.log("2018 im Vergleich zu 2008 sind das " + Math.round(australien2018 - australien2008) + " kg CO2.");
+console.log(texteinseins + au + texteinszwei + australien2018 + texteinsdrei);
+console.log(textzweieins + au + textzweizwei + Math.round((australien2018 / welt) * 100) + textzweidrei);
+console.log(textdreieins + au + textdreizwei + Math.round(((australien2018 - australien2008) / australien2008) * 100) + textdreidrei);
+console.log(textviereins + Math.round(australien2018 - australien2008) + textvierzwei);
 
 
 
