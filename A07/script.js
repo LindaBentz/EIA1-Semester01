@@ -10,10 +10,20 @@ var A07;
     }
     /*Selbsterstellte Beat*/
     function playBeat() {
-        setInterval(function () { playSample(sound[2]); }, 870);
-        setInterval(function () { playSample(sound[1]); }, 540);
-        setInterval(function () { playSample(sound[0]); }, 2000);
+        var time = setInterval(Beat, 200);
+        var beat = ["assets/hihat.mp3", "assets/kick.mp3", "assets/snare.mp3"];
+        var key = 0;
+        function Beat() {
+            var order = new Audio(beat[key]);
+            order.play();
+            key += 1;
+            if (key > beat.length) {
+                key = 0;
+            }
+        }
+        ;
     }
+    ;
     /*Eventlistener*/
     window.addEventListener("load", function () {
         document.getElementById("buttoneins").addEventListener("click", function () { playSample(sound[0]); });
