@@ -1,0 +1,124 @@
+body {
+    background-color: #000000;
+}
+
+
+
+#drumpad{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;         /*mittig*/
+    width: 480px;
+    gap: 5px;
+    
+} 
+
+#buttoneins{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #1F51FF, #0d2374);
+    
+    border-radius: 5px;
+}
+
+#buttonzwei{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #1F51FF, #0d2374);
+    border-radius: 5px;
+}
+
+#buttondrei{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #1F51FF, #0d2374);
+    border-radius: 5px;
+}
+
+#buttonvier{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #FF1493, #9c0c59);
+    border-radius: 5px;
+}
+
+#buttonfünf{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #FF1493, #9c0c59);
+    border-radius: 5px;
+}
+
+#buttonsechs{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #FF1493, #9c0c59);
+    border-radius: 5px;
+}
+
+#buttonsieben{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #FF1493, #9c0c59);
+    border-radius: 5px;
+}
+
+#buttonacht{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #FFA500, #a56c01);
+    border-radius: 5px;
+}
+
+#buttonneun{
+    width: 150px;
+    height: 150px; 
+    background: linear-gradient(to bottom, #FFA500, #a56c01);
+    border-radius: 5px;  
+}
+
+
+
+
+#playbutton {
+
+    position: absolute;
+    top: 550px;
+    font-size: 130px;
+    color: white;
+    opacity: 50%;
+}
+#playbutton:hover {
+    transform: scale(1.05);
+    opacity: 100%;
+}
+#trashbutton {
+    position: absolute;
+    left: 615px;
+    top: 550px;
+    font-size: 130px;
+    color: white;
+    opacity: 50%;
+}
+#trashbutton:hover {
+    transform: scale(1.05);
+    opacity: 100%;
+
+
+}
+
+
+
+
+#shuffle {
+        position: absolute;
+        left: 780px;
+        top: 550px;
+        font-size: 130px;
+        color: white;
+        opacity: 50%;
+}
+#shuffle:hover {
+    transform: scale(1.05);
+    opacity: 100%;
+}
