@@ -1,0 +1,111 @@
+
+
+body {
+  background-color: lightgray;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-size: 64px;
+  font-weight: lighter;
+  
+}
+
+h2 {
+  color: grey;
+  font-weight: lighter;
+ 
+
+}
+
+#app {
+  list-style: none;
+  width: 500px;
+}
+
+#eingabe {
+  width: 430px;
+  height: 75px;
+  margin-left: 15px;
+  padding-left: 60px;
+  padding-top: 3px;
+  border-style: hidden;
+  word-wrap: break-word;
+  outline: none;
+  font-size: x-large;
+ 
+}
+
+#addTask {
+  
+  height: 82px;
+  width: 40px;
+  background-color: white;
+  border: white;
+  font-size: x-large;
+  cursor: pointer;
+  margin-left: -6px;
+  
+}
+
+li {
+  width: 500px;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 15px;
+  list-style-type: none;
+  background-color: white;
+  word-wrap: break-word;
+  text-align: left;
+  border: 1px solid;
+  border-color: lightgray;
+  font-size: x-large;
+  transition: 0.2s;
+}
+
+
+ul li:nth-child(odd) {        /*odd = ungerade Zahlen*/
+  background: #e2e4e2;
+}
+
+ul li:hover {
+  background: rgb(182, 182, 182);
+}
+
+
+.fa-circle {
+  font-size: x-large;
+  float: left;
+  cursor: pointer;
+  margin-right: 15px;
+ 
+}
+
+.fa-check-circle {
+  font-size: x-large;
+  float: left;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+
+.fa-trash-alt {
+  font-size:x-large;
+  float: right;
+  cursor: pointer;
+  margin-left: 15px;
+  visibility: hidden;
+}
+
+li:hover > .fa-trash-alt {
+  visibility: visible;
+}
+
+.ausgeblendet {
+  display: none !important; 
+}
