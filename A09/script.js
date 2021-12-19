@@ -1,3 +1,4 @@
+// gibt fertige lösung im materialordner von A10 ! //
 window.addEventListener("load", function () {
     // Variablendeklaration //
     var eingabe = document.querySelector("#eingabe");

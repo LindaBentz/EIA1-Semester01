@@ -1,3 +1,5 @@
+// gibt fertige lösung im materialordner von A10 ! //
+
 
 window.addEventListener("load", function(): void {
 // Variablendeklaration //
